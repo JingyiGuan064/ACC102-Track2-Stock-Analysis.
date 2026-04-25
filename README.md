@@ -15,7 +15,7 @@ Finance students, investment analysts, and researchers.
 
 ## Dataset
 - Source: WRDS CRSP Monthly Stock File
-- Access Date: 2024-04-24
+- Access Date: 2026-04-24
 - Period: 2022-01-01 to 2022-12-31
 - Tickers: NVDA, MSFT, AAPL
 
