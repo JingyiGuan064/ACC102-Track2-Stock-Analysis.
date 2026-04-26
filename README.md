@@ -25,4 +25,4 @@ This project analyzes the monthly returns of three major tech stocks (NVDA, MSFT
 
 
 ## Author
-Jingyi Guan | Student ID 2473524| Track 2 GitHub Project
+Jingyi Guan | Student ID 2473524 | 
