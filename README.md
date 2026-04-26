@@ -1,41 +1,28 @@
 # ACC102 Track 2: US Stock Monthly Return Analysis (2022)
 XJTLU | IBSS | ACC102 Python Data Product
 
+
 ## Project Overview
-This project analyses monthly stock returns for **NVDA, MSFT, AAPL** in 2022 using WRDS CRSP data.
-It calculates return, risk, and performance metrics for educational and business analysis purposes.
+This project analyzes the monthly returns of three major tech stocks (NVDA, MSFT, AAPL) using historical data from the **WRDS CRSP database** for the year 2022.
 
-## Analytical Purpose
-- Compare return and risk patterns of three large tech stocks
-- Provide clear descriptive statistics for investors/students
-- Demonstrate Python data workflow with SQL and WRDS
+## Data Source
+- The original data is retrieved from the WRDS CRSP database.
+- A local copy of the dataset is saved as `stock_2022_data.csv` to ensure full reproducibility.
 
-## Target User
-Finance students, investment analysts, and researchers.
-
-## Dataset
-- Source: WRDS CRSP Monthly Stock File
-- Access Date: 2026-04-24
-- Period: 2022-01-01 to 2022-12-31
-- Tickers: NVDA, MSFT, AAPL
-
-## Python Workflow
-1. Connect to WRDS database
-2. SQL query for stock data
-3. Data cleaning & renaming
-4. Time-series sorting & date feature extraction
-5. Return ranking & group summary statistics
-6. Reusable function for single stock query
-
-## Key Insights
-- NVDA/MSFT/AAPL show distinct monthly return patterns in 2022
-- Risk (std) differs significantly across tickers
-- The reusable function supports quick analysis for any stock
+## Files Included
+- `acc102 individual project.ipynb`: The main Jupyter Notebook containing all analysis code.
+- `stock_2022_data.csv`: The pre-downloaded dataset for reproducibility.
 
 ## How to Run
-1. Install packages: wrds, pandas
-2. Run all cells in analysis.ipynb
-3. Use the function get_monthly_stock_data() for custom queries
+1.  Clone this repository to your local machine.
+2.  Open the Jupyter Notebook `acc102 individual project.ipynb`.
+3.  Run all cells sequentially. The notebook will automatically load the dataset from `stock_2022_data.csv` without requiring a WRDS connection.
+
+## Key Analysis
+- Data cleaning and preprocessing of monthly stock prices and returns.
+- Descriptive statistics (mean, standard deviation, min/max returns) for each stock.
+- Risk-return comparison of the three selected tech stocks.
+
 
 ## Author
 Jingyi Guan | Student ID 2473524| Track 2 GitHub Project
